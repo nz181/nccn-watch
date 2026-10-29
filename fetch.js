@@ -19,6 +19,6 @@ const fs = require('fs');
   console.log('parsed', n, 'guidelines');
   if (n < 50) { console.error('Too few guidelines parsed; page blocked or changed'); process.exit(1); }
   const sorted = Object.fromEntries(Object.entries(out).sort(([a], [b]) => a.localeCompare(b)));
-  fs.writeFileSync('versions.json', JSON.stringify({ source: 'nccn.org/guidelines/category_1', versions: sorted }, null, 1) + '\n');
+  fs.writeFileSync('versions.json', JSON.stringify({ source: 'nccn.org/guidelines/category_1', fetched_at: new Date().toISOString(), versions: sorted }, null, 1) + '\n');
   await b.close();
 })();
