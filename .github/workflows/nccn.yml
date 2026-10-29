@@ -1,0 +1,22 @@
+name: NCCN versions
+on:
+  schedule:
+    - cron: "0 22 * * 5"   # Friday 22:00 UTC = Saturday 05:00 Bangkok
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm install playwright@1.48.0 && npx playwright install --with-deps chromium
+      - run: node fetch.js
+      - name: Commit if changed
+        run: |
+          git config user.name "nccn-bot"
+          git config user.email "nccn-bot@users.noreply.github.com"
+          git add versions.json
+          git diff --cached --quiet || (git commit -m "Update NCCN versions" && git push)
