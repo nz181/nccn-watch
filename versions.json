@@ -1,6 +1,6 @@
 {
- "source": "nccn.org/guidelines/category_1",
- "fetched_at": "2026-11-07T01:34:52.910Z",
+ "source": "nccn.org/guidelines/category_1 (+ category_2-4 under other_categories)",
+ "fetched_at": "2026-11-08T02:28:13.670Z",
  "versions": {
   "Acute Lymphoblastic Leukemia": "3.2026",
   "Acute Myeloid Leukemia": "5.2026",
@@ -71,5 +71,36 @@
   "Vulvar Cancer": "1.2027",
   "Waldenström Macroglobulinemia/Lymphoplasmacytic Lymphoma": "1.2027",
   "Wilms Tumor (Nephroblastoma)": "1.2026"
+ },
+ "other_categories": {
+  "Detection, Prevention, and Risk Reduction": {
+   "Breast Cancer Risk Reduction": "1.2027",
+   "Breast Cancer Screening and Diagnosis": "1.2026",
+   "Colorectal Cancer Screening": "2.2026",
+   "Genetic/Familial High-Risk Assessment: Breast, Ovarian, Pancreatic, and Prostate": "1.2027",
+   "Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, Esophageal, and Gastric": "1.2026",
+   "Lung Cancer Screening": "1.2027",
+   "Prostate Cancer Early Detection": "2.2026"
+  },
+  "Supportive Care": {
+   "Adult Cancer Pain": "2.2026",
+   "Antiemesis": "2.2026",
+   "Cancer-Associated Venous Thromboembolic Disease": "1.2026",
+   "Cancer-Related Fatigue": "1.2027",
+   "Distress Management": "1.2027",
+   "Hematopoietic Cell Transplantation": "3.2026",
+   "Hematopoietic Growth Factors": "1.2027",
+   "Management of CAR T-Cell and Lymphocyte Engager-Related Toxicities": "2.2026",
+   "Management of Immune Checkpoint Inhibitor-Related Toxicities": "1.2026",
+   "Palliative Care": "3.2026",
+   "Prevention and Treatment of Cancer-Related Infections": "1.2026",
+   "Smoking Cessation": "2.2026",
+   "Survivorship": "3.2026"
+  },
+  "Specific Populations": {
+   "Adolescent and Young Adult (AYA) Oncology": "2.2027",
+   "Cancer in People with HIV": "1.2027",
+   "Older Adult Oncology": "2.2026"
+  }
  }
 }
