@@ -1,6 +1,6 @@
 {
  "source": "nccn.org/guidelines/category_1 (+ category_2-4 under other_categories)",
- "fetched_at": "2026-11-08T02:28:13.670Z",
+ "fetched_at": "2026-11-14T01:57:54.851Z",
  "versions": {
   "Acute Lymphoblastic Leukemia": "3.2026",
   "Acute Myeloid Leukemia": "5.2026",
@@ -19,7 +19,7 @@
   "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma": "2.2027",
   "Chronic Myeloid Leukemia": "2.2027",
   "Colon Cancer": "3.2026",
-  "Cutaneous Lymphomas": "2.2026",
+  "Cutaneous Lymphomas": "1.2027",
   "Dermatofibrosarcoma Protuberans": "1.2027",
   "Esophageal and Esophagogastric Junction Cancers": "4.2026",
   "Gastric Cancer": "4.2026",
@@ -62,7 +62,7 @@
   "Squamous Cell Skin Cancer": "1.2027",
   "Systemic Light Chain Amyloidosis": "1.2027",
   "Systemic Mastocytosis": "3.2026",
-  "T-Cell Lymphomas": "2.2026",
+  "T-Cell Lymphomas": "1.2027",
   "Testicular Cancer": "1.2027",
   "Thymomas and Thymic Carcinomas": "1.2027",
   "Thyroid Carcinoma": "2.2026",
